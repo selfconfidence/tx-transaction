@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/txlcn-application.iml" filepath="$PROJECT_DIR$/txlcn-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txlcn-application-tm/txlcn-application-tm.iml" filepath="$PROJECT_DIR$/txlcn-application-tm/txlcn-application-tm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txlcn-demo-common/txlcn-demo-common.iml" filepath="$PROJECT_DIR$/txlcn-demo-common/txlcn-demo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txlcn-demo-dubbo-service-a/txlcn-demo-dubbo-service-a.iml" filepath="$PROJECT_DIR$/txlcn-demo-dubbo-service-a/txlcn-demo-dubbo-service-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txlcn-demo-dubbo-service-b/txlcn-demo-dubbo-service-b.iml" filepath="$PROJECT_DIR$/txlcn-demo-dubbo-service-b/txlcn-demo-dubbo-service-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txlcn-demo-dubbo-service-c/txlcn-demo-dubbo-service-c.iml" filepath="$PROJECT_DIR$/txlcn-demo-dubbo-service-c/txlcn-demo-dubbo-service-c.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txlcn-application-spring-service-a/txlcn-demo-spring-service-a.iml" filepath="$PROJECT_DIR$/txlcn-application-spring-service-a/txlcn-demo-spring-service-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txlcn-application-spring-service-b/txlcn-demo-spring-service-b.iml" filepath="$PROJECT_DIR$/txlcn-application-spring-service-b/txlcn-demo-spring-service-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txlcn-application-spring-service-c/txlcn-demo-spring-service-c.iml" filepath="$PROJECT_DIR$/txlcn-application-spring-service-c/txlcn-demo-spring-service-c.iml" />
+    </modules>
+  </component>
+</project>
