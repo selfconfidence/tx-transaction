@@ -1,0 +1,28 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: eureka-tx
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.217.129:3306/tx-manager?characterEncoding=UTF-8
+    username: root
+    password: 123456
+  redis:
+    host: 120.55.53.124
+    port: 6379
+    password: zhixiang
+    database: 8
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+eureka:
+  client:
+    registerWithEureka: true #是否向服务注册中心注册自己
+    fetchRegistry: true #是否检索服务
+    serviceUrl:
+      defaultZone: http://127.0.0.1:7071/eureka/
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true

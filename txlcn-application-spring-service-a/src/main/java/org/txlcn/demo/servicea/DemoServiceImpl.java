@@ -54,8 +54,10 @@ public class DemoServiceImpl implements DemoService {
         String dResp = restTemplate.getForObject("http://127.0.0.1:12002/rpc?value=" + value, String.class);
 
         // step2. call remote ServiceE
+/*
         String eResp = serviceCClient.rpc(value);
-
+*/
+        String eResp="3";
         // step3. execute local transaction
         Demo demo = new Demo();
         demo.setGroupId(TracingContext.tracing().groupId());

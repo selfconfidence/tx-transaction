@@ -1,0 +1,42 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: eureka-service1
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.217.129:3306/txlcn-demo?characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+eureka:
+  client:
+    registerWithEureka: true #是否向服务注册中心注册自己
+    fetchRegistry: true #是否检索服务
+    serviceUrl:
+      defaultZone: http://127.0.0.1:7071/eureka/
+tx-lcn:
+  client:
+    manager-address: 127.0.0.1:7001
+  ribbon:
+    MaxAutoRetriesNextServer: 0
+    ReadTimeout: 5000
+    ConnectTimeout: 5000
+  logger:
+    enabled: true
+    driver-class-name: ${spring.datasource.driver-class-name}
+    jdbc-url: ${spring.datasource.url}
+    username: ${spring.datasource.username}
+    password:  ${spring.datasource.password}
+logging:
+  level:
+    com:
+      codingapi:
+        txlcn: debug
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    use-generated-keys: true
